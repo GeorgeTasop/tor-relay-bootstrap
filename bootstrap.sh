@@ -14,6 +14,7 @@ apt-get update
 apt-get dist-upgrade -y
 
 apt-get install -y lsb-release apt-transport-https
+apt-get install -y curl
 
 # add official Tor repository
 if ! grep -q "https://deb.torproject.org/torproject.org" /etc/apt/sources.list; then
